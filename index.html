@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Café Aurelia – Where every cup feels like a little escape. Discover handcrafted coffee, signature drinks and beautiful moments.">
+    <title>Café Aurelia | A Little Escape in Every Cup</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS & Icons -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-mug-hot"></i></span>
+                <span class="logo-text">Café Aurelia</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#our-story">Our Story</a></li>
+
+                <li class="dropdown">
+                    <a href="#menu" class="dropdown-toggle">
+                        Coffee Menu <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#menu">Hot Coffee</a></li>
+                        <li><a href="#menu">Iced Coffee</a></li>
+                        <li><a href="#menu">Espresso</a></li>
+                        <li><a href="#menu">Cold Brew</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#collection">Our Collection</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="fa-regular fa-moon"></i>
+                </button>
+
+                <a href="#collection" class="nav-btn">
+                    Explore Menu <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- 1. HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="hero-subtitle">
+                        <span class="subtitle-line"></span>
+                        WELCOME TO CAFÉ AURELIA
+                    </span>
+
+                    <h1>Discover the <span>Art of</span> Slow Coffee.</h1>
+
+                    <p class="hero-description">
+                        Crafted with passion, served with warmth.
+                        Experience coffee moments that make you pause,
+                        relax and enjoy the little things in life.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#menu" class="primary-btn">
+                            Explore Our Menu <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#our-story" class="secondary-btn">Discover Our Story</a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>Quality Beans</p>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <h3>Fresh</h3>
+                            <p>Every Single Cup</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="hero-image-wrapper">
+                        <img src="images/hero-coffee.jpg" alt="Freshly prepared artisan coffee in a handmade ceramic cup">
+                    </div>
+
+                    <div class="hero-badge">
+                        <i class="fa-solid fa-seedling"></i>
+                        <span>Made with <strong>Love & Care</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-bottom">
+                <span>GOOD COFFEE</span>
+                <span class="bottom-star">✳</span>
+                <span>GOOD MOMENTS</span>
+                <span class="bottom-star">✳</span>
+                <span>GOOD COMPANY</span>
+            </div>
+        </section>
+
+        <!-- 2. BRAND INTRODUCTION -->
+        <section class="brand-intro" id="our-story">
+            <div class="container">
+                <div class="intro-content">
+                    <span class="section-label">OUR STORY</span>
+                    <h2>More Than Coffee, <span>A Moment of Happiness.</span></h2>
+                    <p>
+                        At Café Aurelia, we believe coffee is more than
+                        just a drink. It's a beautiful experience.
+                        From carefully selected coffee beans to every
+                        freshly prepared cup, we bring warmth, quality
+                        and happiness to your everyday moments.
+                    </p>
+                    <a href="#menu" class="text-link">
+                        Discover Our Story <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="intro-highlight">
+                    <div class="highlight-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h3>Made With Love</h3>
+                    <p>Every cup is prepared with care, passion and attention to detail.</p>
+                    <span class="highlight-number">01</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. COFFEE CATEGORIES -->
+        <section class="coffee-categories" id="menu">
+            <div class="container">
+                <div class="categories-heading">
+                    <span class="section-label">EXPLORE OUR MENU</span>
+                    <h2>Find Your Perfect <span>Coffee Moment.</span></h2>
+                    <p>From comforting classics to refreshing favorites, discover something special in every cup.</p>
+                </div>
+
+                <div class="category-grid">
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="images/hot-coffee.jpg" alt="Hot Coffee">
+                        </div>
+                        <div class="category-info">
+                            <span>01</span>
+                            <h3>Hot Coffee</h3>
+                            <p>Warm, rich and comforting coffee for every moment.</p>
+                            <a href="#collection">Explore Menu <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="images/iced-coffee.jpg" alt="Iced Coffee">
+                        </div>
+                        <div class="category-info">
+                            <span>02</span>
+                            <h3>Iced Coffee</h3>
+                            <p>Cool, refreshing flavors to brighten your day.</p>
+                            <a href="#collection">Explore Menu <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="images/espresso.jpg" alt="Espresso">
+                        </div>
+                        <div class="category-info">
+                            <span>03</span>
+                            <h3>Espresso</h3>
+                            <p>Bold flavor and beautiful coffee craftsmanship.</p>
+                            <a href="#collection">Explore Menu <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="images/cold-brew.jpg" alt="Cold Brew">
+                        </div>
+                        <div class="category-info">
+                            <span>04</span>
+                            <h3>Cold Brew</h3>
+                            <p>Smooth, slow-brewed coffee with a refreshing taste.</p>
+                            <a href="#collection">Explore Menu <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SIGNATURE COLLECTION -->
+        <section class="signature-collection" id="collection">
+            <div class="container">
+                <div class="collection-header">
+                    <div>
+                        <span class="section-label">OUR SPECIAL SELECTION</span>
+                        <h2>Signature <span>Collection</span></h2>
+                        <p>Discover our handcrafted favorites, made to make every moment special.</p>
+                    </div>
+                    <a href="#menu" class="collection-link">
+                        Explore All Coffee <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="collection-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="product-tag">BESTSELLER</span>
+                            <img src="images/caramel-latte.jpg" alt="Caramel Latte">
+                            <button class="product-heart" aria-label="Favorite Caramel Latte">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                        <div class="product-details">
+                            <span class="product-category">HOT COFFEE</span>
+                            <h3>Caramel Latte</h3>
+                            <p>Smooth espresso blended with creamy milk and caramel.</p>
+                            <div class="product-bottom">
+                                <strong>Rs. 650</strong>
+                                <a href="#contact">Order Now <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="product-tag">CUSTOMER FAVOURITE</span>
+                            <img src="images/iced-mocha.jpg" alt="Iced Mocha">
+                            <button class="product-heart" aria-label="Favorite Iced Mocha">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                        <div class="product-details">
+                            <span class="product-category">ICED COFFEE</span>
+                            <h3>Iced Mocha</h3>
+                            <p>Rich chocolate, espresso and chilled creamy milk.</p>
+                            <div class="product-bottom">
+                                <strong>Rs. 700</strong>
+                                <a href="#contact">Order Now <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="product-tag">CLASSIC</span>
+                            <img src="images/cappuccino.jpg" alt="Classic Cappuccino">
+                            <button class="product-heart" aria-label="Favorite Cappuccino">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                        <div class="product-details">
+                            <span class="product-category">ESPRESSO</span>
+                            <h3>Classic Cappuccino</h3>
+                            <p>Perfectly balanced espresso with silky milk foam.</p>
+                            <div class="product-bottom">
+                                <strong>Rs. 600</strong>
+                                <a href="#contact">Order Now <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="product-tag">SPECIAL PICK</span>
+                            <img src="images/cold-brew-special.jpg" alt="Cold Brew Special">
+                            <button class="product-heart" aria-label="Favorite Cold Brew">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                        <div class="product-details">
+                            <span class="product-category">COLD BREW</span>
+                            <h3>Cold Brew Special</h3>
+                            <p>Slow-steeped coffee with a naturally smooth finish.</p>
+                            <div class="product-bottom">
+                                <strong>Rs. 750</strong>
+                                <a href="#contact">Order Now <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. COFFEE SPOTLIGHT -->
+        <section class="coffee-spotlight">
+            <div class="spotlight-container">
+                <div class="spotlight-image">
+                    <img src="images/spotlight-coffee.jpg" alt="Signature artisan coffee">
+                    <div class="spotlight-image-label">
+                        <i class="fas fa-star"></i>
+                        <span>BARISTA'S SPECIAL</span>
+                    </div>
+                </div>
+
+                <div class="spotlight-content">
+                    <span class="section-label">THE AURELIA EXPERIENCE</span>
+                    <h2>A Little Cup of <span>Pure Perfection.</span></h2>
+                    <p>
+                        Introducing our signature handcrafted latte.
+                        Made with carefully selected coffee beans,
+                        perfectly steamed milk and a touch of artistry.
+                        Every sip is an experience worth remembering.
+                    </p>
+
+                    <div class="spotlight-features">
+                        <div class="spotlight-feature">
+                            <i class="fas fa-coffee"></i>
+                            <span>Premium Beans</span>
+                        </div>
+                        <div class="spotlight-feature">
+                            <i class="fas fa-heart"></i>
+                            <span>Handcrafted</span>
+                        </div>
+                        <div class="spotlight-feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>Freshly Prepared</span>
+                        </div>
+                    </div>
+
+                    <div class="spotlight-price">
+                        <div>
+                            <span>OUR SIGNATURE PICK</span>
+                            <h3>Rs. 750</h3>
+                        </div>
+                        <a href="#contact" class="primary-btn">
+                            Try It Today <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. SEASONAL PROMOTION -->
+        <section class="seasonal-banner">
+            <div class="seasonal-container">
+                <div class="seasonal-content">
+                    <span class="seasonal-label">✦ LIMITED TIME EXPERIENCE ✦</span>
+                    <h2>Fall in Love <span>With Every Sip.</span></h2>
+                    <p>
+                        Discover our seasonal coffee collection.
+                        Rich flavors, comforting aromas and
+                        beautiful moments made just for you.
+                    </p>
+                    <a href="#collection" class="seasonal-btn">
+                        Explore Seasonal Menu <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <span class="seasonal-note">MADE WITH LOVE · SERVED WITH WARMTH</span>
+                </div>
+
+                <div class="seasonal-image">
+                    <img src="images/seasonal-coffee.jpg" alt="Seasonal coffee with warm autumn styling">
+                    <div class="seasonal-stamp">
+                        <span>THE</span>
+                        <strong>AURELIA</strong>
+                        <span>SEASONAL SPECIAL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. OUR PHILOSOPHY -->
+        <section class="our-philosophy">
+            <div class="container">
+                <div class="philosophy-heading">
+                    <span class="section-label">WHAT WE BELIEVE</span>
+                    <h2>Coffee Is Not Just a Drink. <span>It's a Way of Feeling.</span></h2>
+                    <p>
+                        At Café Aurelia, every detail matters.
+                        From the beans we select to the moments
+                        we create, our philosophy is simple:
+                        make every cup meaningful.
+                    </p>
+                </div>
+
+                <div class="philosophy-grid">
+                    <div class="philosophy-card">
+                        <div class="philosophy-icon"><i class="fas fa-seedling"></i></div>
+                        <span class="philosophy-number">01</span>
+                        <h3>Quality First</h3>
+                        <p>We carefully select quality coffee beans to deliver rich flavor and an exceptional coffee experience.</p>
+                    </div>
+
+                    <div class="philosophy-card">
+                        <div class="philosophy-icon"><i class="fas fa-mug-hot"></i></div>
+                        <span class="philosophy-number">02</span>
+                        <h3>Made With Passion</h3>
+                        <p>Every cup is thoughtfully prepared with care, creativity and attention to every little detail.</p>
+                    </div>
+
+                    <div class="philosophy-card">
+                        <div class="philosophy-icon"><i class="fas fa-heart"></i></div>
+                        <span class="philosophy-number">03</span>
+                        <h3>Moments That Matter</h3>
+                        <p>We create a welcoming space where friends connect, conversations flow and beautiful memories begin.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. CUSTOMER TESTIMONIALS -->
+        <section class="customer-testimonials" id="reviews">
+            <div class="container">
+                <div class="testimonial-heading">
+                    <span class="section-label">KIND WORDS</span>
+                    <h2>Moments Shared,<span>Stories Loved.</span></h2>
+                    <p>Good coffee brings people together. Here's what our lovely customers say about their Café Aurelia experience.</p>
+                </div>
+
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <div class="review-top">
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <i class="fas fa-quote-right quote-icon"></i>
+                        </div>
+                        <p class="review-text">"The coffee is absolutely wonderful! I love the peaceful atmosphere and the attention to detail. It's my favourite place to relax."</p>
+                        <div class="reviewer">
+                            <div class="reviewer-avatar">A</div>
+                            <div>
+                                <h4>Ayesha Khan</h4>
+                                <span>Regular Customer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card featured-review">
+                        <div class="review-top">
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <i class="fas fa-quote-right quote-icon"></i>
+                        </div>
+                        <p class="review-text">"Café Aurelia has the perfect combination of delicious coffee, friendly service and a beautiful atmosphere. Highly recommended!"</p>
+                        <div class="reviewer">
+                            <div class="reviewer-avatar">H</div>
+                            <div>
+                                <h4>Hamza Ali</h4>
+                                <span>Coffee Lover</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="review-top">
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <i class="fas fa-quote-right quote-icon"></i>
+                        </div>
+                        <p class="review-text">"I tried their iced coffee and loved it! The presentation, taste and welcoming environment make every visit special."</p>
+                        <div class="reviewer">
+                            <div class="reviewer-avatar">S</div>
+                            <div>
+                                <h4>Sara Ahmed</h4>
+                                <span>Happy Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-footer">
+                    <span>★★★★★</span>
+                    <p>Made special by every visit.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. FAQ -->
+        <section class="faq-section" id="faq">
+            <div class="container">
+                <div class="faq-container">
+                    <div class="faq-heading">
+                        <span class="section-label">GOT QUESTIONS?</span>
+                        <h2>Everything You Need <span>To Know.</span></h2>
+                        <p>We've answered some common questions to make your Café Aurelia experience even better.</p>
+
+                        <div class="faq-contact">
+                            <p>Still have a question?</p>
+                            <a href="#contact">Get in Touch <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="faq-list">
+                        <div class="faq-item active">
+                            <button class="faq-question">
+                                What makes Café Aurelia special?
+                                <span class="faq-icon"><i class="fas fa-minus"></i></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>We combine carefully selected coffee beans, handcrafted beverages and a warm atmosphere to make every visit special.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                Do you offer hot and iced coffee?
+                                <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Yes! Our menu includes hot coffee, iced coffee, espresso-based drinks and refreshing cold brews.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                Can I customize my coffee?
+                                <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Absolutely! You can ask about available milk options, sweetness levels and additional flavors when ordering.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                Do you have options for students?
+                                <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>We love welcoming students! Keep an eye on our seasonal promotions and special offers.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                How can I contact Café Aurelia?
+                                <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>You can contact us through our contact section or follow our social media pages for updates and information.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. NEWSLETTER & CONTACT -->
+        <section class="newsletter-contact" id="contact">
+            <div class="newsletter">
+                <div class="newsletter-content">
+                    <span class="section-label">A LITTLE SOMETHING SPECIAL</span>
+                    <h2>Stay in the <span>Coffee Loop.</span></h2>
+                    <p>Subscribe to receive café updates, seasonal specials and exclusive offers.</p>
+
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit">Subscribe <i class="fas fa-arrow-right"></i></button>
+                    </form>
+
+                    <small>Fresh updates, straight to your inbox. No spam, ever.</small>
+                </div>
+
+                <div class="newsletter-decoration">
+                    <i class="fas fa-mug-hot"></i>
+                    <span>BREWED WITH LOVE</span>
+                </div>
+            </div>
+
+            <div class="contact-details container">
+                <div class="contact-heading">
+                    <span class="section-label">LET'S CONNECT</span>
+                    <h2>We'd Love to <span>Hear From You.</span></h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h3>Visit Us</h3>
+                        <p>Your Café Aurelia location goes here.</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <h3>Email Us</h3>
+                        <p>hello@cafeaurelia.com</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <h3>Call Us</h3>
+                        <p>+92 XXX XXXXXXX</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 11. FOOTER -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="footer-logo">
+                    <i class="fas fa-mug-hot"></i>
+                    <span>Café <strong>Aurelia</strong></span>
+                </a>
+
+                <p>Where every cup feels like a little escape. Crafted with passion, served with warmth.</p>
+
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Explore</h3>
+                <a href="#home">Home</a>
+                <a href="#our-story">Our Story</a>
+                <a href="#menu">Coffee Menu</a>
+                <a href="#collection">Our Collection</a>
+                <a href="#reviews">Customer Reviews</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Our Menu</h3>
+                <a href="#menu">Hot Coffee</a>
+                <a href="#menu">Iced Coffee</a>
+                <a href="#menu">Espresso</a>
+                <a href="#menu">Cold Brew</a>
+                <a href="#collection">Signature Drinks</a>
+            </div>
+
+            <div class="footer-links footer-contact">
+                <h3>Get In Touch</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Your Café Location, Karachi</p>
+                <p><i class="fas fa-envelope"></i> hello@cafeaurelia.com</p>
+                <p><i class="fas fa-phone-alt"></i> +92 XXX XXXXXXX</p>
+                <a href="#contact" class="footer-contact-link">
+                    Contact Us <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Café Aurelia. All Rights Reserved.</p>
+
+            <div class="footer-bottom-links">
+                <a href="#faq">FAQs</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <p class="footer-credit">Made with <i class="fas fa-heart"></i> & Coffee.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
